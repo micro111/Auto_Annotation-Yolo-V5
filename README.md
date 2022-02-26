@@ -12,6 +12,9 @@ This tool was created with the intention of helping you.　 :)
 (background and object colors are close to opposite colors).  
 Also, only one object can be detected per video.  
 (We plan to support this later.)   
+
+　If it is not detected, shooting away from or closer to the camera may be successful.  
+(This is because when binarizing, the black and white is switched in proportion to the size of the object.)
  
 # How to Use..?
 https://user-images.githubusercontent.com/88880693/155746427-955dc6e3-fe2e-4341-9056-fad5da51be6e.mp4
