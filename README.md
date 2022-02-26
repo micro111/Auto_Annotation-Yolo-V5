@@ -92,6 +92,14 @@ python Ano.py  (or python3 Ano.py)
 It does not work in WSL and WSL2 environments.
 (Because it uses threads).  
 
+# Plans for future improvements
+ - Change in the algorithm for determining the threshold of binarization  
+(Modifications will be made to place a point on the image and place that position as white)  
+ - Support for other kinds of annotations  
+(Currently, support for Yolo-V3 and XML is planned (almost complete).
+ - Automatically annotate a folder with a large number of images.
+ - Extraction of multiple objects in a single image
+(This will be solved by dividing the image into regions.)
 
 ===========================================================  
 Thanks for looking. Hope it will help someone else.
