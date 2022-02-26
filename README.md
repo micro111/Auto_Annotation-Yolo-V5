@@ -7,8 +7,23 @@ This tool was created with the intention of helping you.　 :)
 　This is a tool that automatically annotates from videos. Two formats are available: .exe and .Py.  
 ![image](https://user-images.githubusercontent.com/88880693/155735245-48e246c5-f2b8-46bd-a7b5-a439c7dc7173.png)
 
+# Caution.
+　This tool should be done using a video where the current binarization process is easy to apply.  
+(background and object colors are close to opposite colors).  
+Also, only one object can be detected per video.  
+(We plan to support this later.)   
+ 
 # How to Use..?
 https://user-images.githubusercontent.com/88880693/155746427-955dc6e3-fe2e-4341-9056-fad5da51be6e.mp4
+
+
+## Preparation
+ First of all, this tool requires an image for automatic background composition.  
+ 
+ Create a back folder in the same directory as the executable and place one or more images in it.  
+ 
+If you do not want to combine backgrounds (or if you cannot prepare images),  
+replace "back:1" with "back:0" in auto.conf.
 
 ## 1.Select the video to be annotated
 　Please Click on "Open the Video" in the upper left corner.  
@@ -52,12 +67,6 @@ All you have to do is press start and it will be annotated automatically.
       + /mask/*  (Image generated for mask)
       + /masked/* (Image with mask applied.)
       
-# Caution.
-　This tool should be done using a video where the current binarization process is easy to apply.  
-(background and object colors are close to opposite colors).  
-Also, only one object can be detected per video.  
-(We plan to support this later.)   
-
 
 # Windows(Ano.exe) Download
 <img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=flat">
