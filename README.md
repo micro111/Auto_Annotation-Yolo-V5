@@ -3,6 +3,7 @@ I am Japanese, so I use a translation tool.
 Are you sick of annotations?   
 This tool was created with the intention of helping you.　 :)  
 
+日本語解説　：https://micro-1010.hatenablog.jp/entry/2022/02/26/164311
 # Auto_Annotation-Yolo-V5
 　This is a tool that automatically annotates from videos. Two formats are available: .exe and .Py.  
 ![image](https://user-images.githubusercontent.com/88880693/155735245-48e246c5-f2b8-46bd-a7b5-a439c7dc7173.png)
